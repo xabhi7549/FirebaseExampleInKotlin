@@ -9,5 +9,6 @@ package com.site_valley.firebaseexample.helpers
 import com.google.firebase.database.FirebaseDatabase
 
 object Constants{
+
     val realtimeDBRef=FirebaseDatabase.getInstance().reference.child("RealTimeDB")
 }

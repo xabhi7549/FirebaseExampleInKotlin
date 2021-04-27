@@ -1,9 +1,15 @@
+/*
+ * Created by abhinav for ETAOP Pvt. Ltd.
+ * Copyright (c) 2021 . All rights reserved.
+ * Last Updated on 27/4/21 12:55 PM
+ */
+
 package com.site_valley.firebaseexample.database
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.button.MaterialButton
@@ -11,8 +17,8 @@ import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.database.ChildEventListener
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
-import com.site_valley.firebaseexample.adapters.AdapterDatabase
 import com.site_valley.firebaseexample.R
+import com.site_valley.firebaseexample.adapters.AdapterDatabase
 import com.site_valley.firebaseexample.helpers.Constants
 
 class DatabaseActivity : AppCompatActivity() {
@@ -32,7 +38,6 @@ class DatabaseActivity : AppCompatActivity() {
         adapter = AdapterDatabase(ArrayList())
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = adapter
-
 
 
         findViewById<MaterialButton>(R.id.save).setOnClickListener {

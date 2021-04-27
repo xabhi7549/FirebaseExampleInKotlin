@@ -37,4 +37,5 @@ class AdapterDatabase(val list: ArrayList<String>):
         list.add(string)
         notifyDataSetChanged()
     }
+
 }
