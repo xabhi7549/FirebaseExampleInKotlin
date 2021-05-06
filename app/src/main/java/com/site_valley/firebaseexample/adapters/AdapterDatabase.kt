@@ -17,7 +17,7 @@ class AdapterDatabase(val list: ArrayList<String>):
     RecyclerView.Adapter<AdapterDatabase.ViewHolder>() {
     class ViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
         var textView: TextView = view
-            .findViewById<TextView>(R.id.data)
+            .findViewById(R.id.data)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

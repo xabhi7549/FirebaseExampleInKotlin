@@ -10,23 +10,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="8dp">
 
 
-<TextView
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
         android:gravity="center"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:padding="4dp"/>
+        android:padding="4dp" />
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/database"
+        android:layout_marginTop="10dp"
+        android:text="@string/realtime_database" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/database_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/database"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp" />
 
 </LinearLayout>

@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by abhinav for ETAOP Pvt. Ltd.
+  ~ Copyright (c) 2021 . All rights reserved.
+  ~ Last Updated on 6/5/21 7:53 PM
+  -->
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.site_valley.firebaseexample">
 
@@ -9,7 +15,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FirebaseExample">
-        <activity android:name=".database.DatabaseActivity"></activity>
+        <activity
+            android:name=".database.DatabaseInsertDeleteActivity"
+            android:label="@string/database" />
+        <activity
+            android:name=".database.DatabaseActivity"
+            android:label="@string/realtime_database" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

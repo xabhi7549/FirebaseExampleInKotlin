@@ -1,6 +1,16 @@
+<!--
+  ~ Created by abhinav for ETAOP Pvt. Ltd.
+  ~ Copyright (c) 2021 . All rights reserved.
+  ~ Last Updated on 6/5/21 7:25 PM
+  -->
+
 <resources>
     <string name="app_name">Firebase Example</string>
-    <string name="database">Database</string>
-    <string name="type_here">Type here...</string>
+    <string name="database">Database Insert/Delete</string>
+    <string name="type_here">Type here…</string>
     <string name="save">Save</string>
+    <string name="realtime_database">Realtime Database</string>
+    <string name="insert">Insert</string>
+    <string name="fetch">Fetch</string>
+    <string name="data_to_add_in_database">Data To Add In Database</string>
 </resources>
