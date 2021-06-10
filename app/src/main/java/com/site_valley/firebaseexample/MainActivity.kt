@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.button.MaterialButton
 import com.site_valley.firebaseexample.database.DatabaseActivity
 import com.site_valley.firebaseexample.database.DatabaseInsertDeleteActivity
+import com.site_valley.firebaseexample.notification.NotificationActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,6 +26,10 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<MaterialButton>(R.id.database_insert).setOnClickListener {
             startActivity(Intent(this, DatabaseInsertDeleteActivity::class.java))
+        }
+
+        findViewById<MaterialButton>(R.id.send_notification).setOnClickListener {
+            startActivity(Intent(this, NotificationActivity::class.java))
         }
 
     }

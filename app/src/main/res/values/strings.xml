@@ -13,4 +13,10 @@
     <string name="insert">Insert</string>
     <string name="fetch">Fetch</string>
     <string name="data_to_add_in_database">Data To Add In Database</string>
+    <string name="firebase_local_notification">Firebase/Local Notification</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="fcm_token">FCM Token:</string>
+    <string name="send_local_notification">Send Local Notification</string>
+    <string name="send_firebase_notification">Send Firebase Notification</string>
 </resources>
