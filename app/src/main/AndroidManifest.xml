@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FirebaseExample">
-        <activity android:name=".notification.NotificationActivity"></activity>
+        <activity
+            android:name=".notification.NotificationActivity"
+            android:label="@string/send_firebase_notification" />
         <activity
             android:name=".database.DatabaseInsertDeleteActivity"
             android:label="@string/database" />
