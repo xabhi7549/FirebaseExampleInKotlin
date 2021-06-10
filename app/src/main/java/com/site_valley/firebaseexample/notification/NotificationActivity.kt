@@ -112,12 +112,12 @@ class NotificationActivity : AppCompatActivity() {
 
     }
 
-    private fun getFirebaseFCMToken() {
-        FirebaseMessaging.getInstance().token.addOnCompleteListener {
-            token = it.result
-            findViewById<MaterialTextView>(R.id.token).text = "FCM Token : $token"
-        }
-    }
+     fun getFirebaseFCMToken() {
+         FirebaseMessaging.getInstance().token.addOnCompleteListener {
+             token = it.result
+             findViewById<MaterialTextView>(R.id.token).text = "FCM Token : $token"
+         }
+     }
 
 
     private fun sendNotificationFirebase(title: String, msg: String, token: String) {
